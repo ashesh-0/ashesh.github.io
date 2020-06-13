@@ -1,49 +1,21 @@
 ---
 layout: page
 title: about
-description: Karl Broman is Professor in Biostatistics and Medical Informatics at University of Wisconsin - Madison; research in statistical genetics
+description: Ashesh is working as a Research Assistant in National Taiwan University, Taipei. His research field is Gaze estimation.
 ---
 
-Karl Broman is Professor in the
-[Department of Biostatistics &amp; Medical Informatics](https://www.biostat.wisc.edu)
-at the University of Wisconsin&ndash;Madison;
-research in statistical genetics; developer of
-[R/qtl](https://rqtl.org) (for [R](https://www.r-project.org)).
+Ashesh is working as a Research Assistant in [National Taiwan University](https://www.ntu.edu.tw/english/), Taipei. His research field is Gaze estimation. His advisor is [Hsuan Tien](https://www.csie.ntu.edu.tw/~htlin/)
 
-Karl received a BS in [mathematics](http://uwm.edu/math)
-in 1991, from the
-University of Wisconsin&ndash;Milwaukee, and a
-PhD in [statistics](http://stat.berkeley.edu) in 1997, from the
-University of California, Berkeley; his PhD advisor was
-[Terry Speed](http://www.wehi.edu.au/people/terry-speed).
-He was a postdoctoral fellow with James Weber at the
-[Marshfield Clinic Research Foundation](http://research.marshfieldclinic.org),
-1997&ndash;1999. He
-was a faculty member in the [Department of Biostatistics](https://www.jhsph.edu/departments/biostatistics/) at Johns
-Hopkins University, 1999&ndash;2007. In 2007, he moved to the
-[University of Wisconsin&ndash;Madison](https://www.wisc.edu).
+Ashesh received B.Tech+M.Tech in [Computer Science](https://www.cse.iitd.ernet.in/)
+in 2015, from the IIT Delhi.
 
-Karl is a Senior Editor for [_Genetics_](http://www.genetics.org) and
-a member of the [_BMC Biology_](https://bmcbiol.biomedcentral.com)
-[Editorial Board](https://bmcbiol.biomedcentral.com/about/editorial-board).
-
-Karl is an applied statistician focusing on problems in genetics and
-genomics &ndash; particularly the analysis of meiotic recombination and the
-genetic dissection of complex traits in experimental organisms. The
-latter is often called &ldquo;QTL mapping.&rdquo; A QTL is a
-_quantitative trait locus_ &ndash; a genetic locus that influences a
-quantitative trait. He is enthusiastic about the value
-of interactive data visualizations for exploring high-dimensional genetic data;
-see his [R/qtlcharts package](https://kbroman.org/qtlcharts) and
-his [D3 examples](https://www.biostat.wisc.edu/~kbroman/D3).
+Ashesh worked as a Data Scientist at [Qplum](https://www.qplum.co/),  an online investment advisory firm from Dec 2015
+to Dec 2018.
 
 [curriculum vitae ![CV as pdf](icons16/pdf-icon.png)]({{ BASE_PATH }}/assets/broman_cv.pdf)<br/>
-[orcid](https://orcid.org): [0000-0002-4914-6671](https://orcid.org/0000-0002-4914-6671)<br/>
-[google scholar](https://scholar.google.com/citations?sortby=pubdate&hl=en&user=42tCp5UAAAAJ&view_op=list_works)<br/>
-[pubmed](https://www.ncbi.nlm.nih.gov/pubmed/?term=broman+kw)<br/>
-<!-- [impactstory](https://impactstory.org/u/0000-0002-4914-6671)<br/> -->
-[github](https://github.com/kbroman)<br/>
-[blog](https://kbroman.org/blog) <br/>
+[Github](https://github.com/ashesh-0)<br/>
+[Linkedin](https://www.linkedin.com/in/ashesh0/) <br/>
+[Kaggle](https://www.kaggle.com/silence2) <br/>
 he/him
 
 ---
