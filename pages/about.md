@@ -4,12 +4,12 @@ title: About
 description: Ashesh is working as a Research Assistant in National Taiwan University, Taipei. His research field is Gaze estimation.
 ---
 
-Ashesh is working as a Research Assistant in [National Taiwan University](https://www.ntu.edu.tw/english/), Taipei. His research field is Gaze estimation. His advisor is [Hsuan Tien](https://www.csie.ntu.edu.tw/~htlin/)
+I'm working as a Research Assistant in [National Taiwan University](https://www.ntu.edu.tw/english/), Taipei. My research field is Gaze estimation. My advisor is Prof. [Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/)
 
-Ashesh received B.Tech+M.Tech in [Computer Science](https://www.cse.iitd.ernet.in/)
+I received B.Tech+M.Tech in [Computer Science](https://www.cse.iitd.ernet.in/)
 in 2015, from the IIT Delhi.
 
-Ashesh worked as a Data Scientist at [Qplum](https://www.qplum.co/),  an online investment advisory firm from Dec 2015
+I worked as a Data Scientist at [Qplum](https://www.qplum.co/),  an online investment advisory firm, from Dec 2015
 to Dec 2018.
 
 
