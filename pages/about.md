@@ -12,7 +12,9 @@ in 2015, from the IIT Delhi.
 Ashesh worked as a Data Scientist at [Qplum](https://www.qplum.co/),  an online investment advisory firm from Dec 2015
 to Dec 2018.
 
-[curriculum vitae ![CV as pdf](icons16/pdf-icon.png)]({{ BASE_PATH }}/assets/broman_cv.pdf)<br/>
+
+<!-- [curriculum vitae ![CV as pdf](icons16/pdf-icon.png)]({{ BASE_PATH }}/assets/broman_cv.pdf)<br/> -->
+[Curriculum vitae](https://docs.google.com/document/d/1tG6psbZns3pmT0fGzA3eoCB8GltZTCBGKaviqUA8KU0)<br/>
 [Github](https://github.com/ashesh-0)<br/>
 [Linkedin](https://www.linkedin.com/in/ashesh0/) <br/>
 [Kaggle](https://www.kaggle.com/silence2) <br/>
