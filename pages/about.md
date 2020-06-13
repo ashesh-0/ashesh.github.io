@@ -1,6 +1,6 @@
 ---
 layout: page
-title: about
+title: About
 description: Ashesh is working as a Research Assistant in National Taiwan University, Taipei. His research field is Gaze estimation.
 ---
 
@@ -16,19 +16,18 @@ to Dec 2018.
 [Github](https://github.com/ashesh-0)<br/>
 [Linkedin](https://www.linkedin.com/in/ashesh0/) <br/>
 [Kaggle](https://www.kaggle.com/silence2) <br/>
-he/him
 
 ---
 
 <div class="container">
-<h4><a name="contact"></a>contact</h4>
+<h4><a name="Contact"></a>contact</h4>
 
     <div class="row-fluid">
         <div class="span5">
             Ashesh<br/>
             <div id="hide_email">
-            Email: ashesh276@gmail.com
-            Phone: +91-8800984154,+886-928543959
+            Email: ashesh276@gmail.com <br/>
+            Phone: +91-8800984154, +886-928543959
             </div>
         </div>
 
