@@ -10,24 +10,25 @@ Software Development: (ORS, ExecutionSimulation, ReconciliationPipeline, Porfoli
 Algorithms.
 Machine Learning
 
-## Humane Touch
 ### Execution System
+So, as we have seen, porfolio management system says something like this, "After looking at the prices of stocks and
+etfs of past few days, I, in my genius intelligence and ultimate authority, think that for the user ABC, we should buy
+n1 shares of APPL, sell n2 shares of VTI and so on and so forth". It sends these orders to execution system.
+
+For every order, execution system looks at price data at minisecond/microsecond granularity and decides upon the best
+time in near future to execute the order. If it is a buy order, the system attempts to send the order at the time when
+the price is low. For a sell order, target is naturally to sell at a relatively higher price.
+
+<img src="../assets/pics/price_minima_maxima.jpg" alt="drawing" width="450"
+title="At Maxima(Minima) aim is to Sell(Buy)"/>
+
+<!-- ![alt text](../assets/pics/price_minima_maxima.jpg "Local Maximas and Minimas: good time to trade") -->
 
 ### Order Routing Server (ORS)
 Exchange speaks a different language. Trading system speaks another. ORS is the interpreter which receives messages from
 one and translates it to the other. A buy order request, sell order request, order price modification request etc are
 some examples of messages which Trading system sends to Exchange. Order confirmation notification, order cancellation
 notification etc. are few examples of messages sent by the exchange.
-<div class="container">
-<h4><a name="ORS"></a>ORS</h4>
 
-    <div class="row-fluid">
-        <div class="span2">
-        <a href="../assets/pics/ORS.jpg">
-            <img src="../assets/pics/ORS.jpg"
-                  title="ORS" alt="ORS"/></a>
-        </div>
-    </div>
-</div>
-
-## How Market Simulators Work
+<img src="../assets/pics/ORS.jpg" alt="drawing" width="450"
+title="ORS acts as an interpreter between Execution system and Exchange"/>
