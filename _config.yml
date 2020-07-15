@@ -116,10 +116,10 @@ footer:
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      # url: "https://www.linkedin.com/in/ashesh0/"
+      url: "https://www.linkedin.com/in/ashesh0/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/ashesh-0/"
+      url: "https://github.com/ashesh-0/"
     - label: "Kaggle"
       # icon: "fas fa-fw fa-kaggle"
       # url: "https://www.kaggle.com/silence2"
