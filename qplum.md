@@ -21,7 +21,10 @@ A typical trading pipeline has 3 major components. I had the fortune to work on 
 PMS allocates user's money to multiple strategies by taking into account user's appetite for risk. Some
 strategies are high-risk high-reward type, some are low-risk low-reward and the rest fall in between the two
 extremes. Each strategy constitutes of a methodology to manage money, and hyper parameter values controling the risk and other metrics. The methodology, built on lines of some traditional trading ideas like momentum, mean reversion,
-market neutral often employs machine learning techniques for prediction. With the help of market simulators, these strategies are tested on historical data. Only best performing strategies are picked to be run in PMS for managing users' money.
+market neutral often employs machine learning techniques for prediction.
+> With the help of market simulators, strategies in PMS are tested on historical data.
+
+Only best performing strategies are picked to be run in PMS for managing users' money.
 PMS predicts the desired allocation to products for each user. Using currrent allocation and the prediction, orders are then generated and sent to Execution System for execution.
 
 ### Execution System
