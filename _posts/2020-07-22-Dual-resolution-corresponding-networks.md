@@ -9,7 +9,7 @@ header:
 
 ## Super short introduction
 * [Paper Link](https://arxiv.org/abs/2006.08844#:~:text=We%20tackle%20the%20problem%20of,coarse%2Dto%2Dfine%20manner.)
-* This paper solves the problem of finding correspondences between two images (aka does kepoint matching) by using 2 feature maps of different resolutions. Less compute requirements and more robust keypoint matching are the major benefits of this approach.
+* This paper solves the problem of finding correspondences between two images (aka does keypoint matching) by using 2 feature maps of different resolutions. Less compute requirements and more robust keypoint matching are the major benefits of this approach.
 
 
 ## Understanding the paper
