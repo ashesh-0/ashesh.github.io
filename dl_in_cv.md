@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: true
-title: Projects from Coursera
+title: Deep Learning in Computer Vision
 toc: true
 ---
 
