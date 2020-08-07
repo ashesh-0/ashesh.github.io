@@ -6,7 +6,7 @@ title: "CLOPS: Continual Learning of Physiological Signals"
 ---
 ## Super short description
 * [Paper Link](https://arxiv.org/abs/2004.09578)
-* Broad theme is Continual learning(CL) based setup on medical dataset. Objective is to mitigate the drastic forgetfulness about previous tasks while learning the current task. Novelty of the paper is in the way to create replay buffer and to fetch a subset of data from replay buffer. The paper saves those examples which are most easiest to train for each task. Paper fetches those examples from replay buffer for which the model is getting highly confused.
+* Broad theme is Continual learning(CL) based setup on medical dataset. Objective is to mitigate the drastic forgetfulness about previous tasks while learning the current task. Novelty of the paper is in the way to create replay buffer and to fetch a subset of data from replay buffer. The paper saves those examples which are most easiest to train for each task. For data augmentation, paper fetches those examples from replay buffer for which the model is getting highly confused.
 
 ## Background
 ### Continual Learning(CL)
