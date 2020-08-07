@@ -18,7 +18,7 @@ One popular way to solve it is to have a **replay buffer** where one keeps a sub
 ### Data addition in Replay buffer
 Paper uses weighted average of individual data point losses. There weights are learnable parameters termed as $$\beta$$ and is defined for every data point of every task. Since individual losses are strictly positive, the weights have a natural inclination to go towards 0 (we are minimizing the loss). Paper prevents this by introducing another loss term which penalizes their distance from 1.  Also, the outliers in the training data (or the examples which are harder to train) would have learnt lower weights thereby reducing their contribution  to the loss. So the examples which are easier to train would have relatively higher weights. Paper takes a fraction of the dataset which has larger averaged $$\beta$$, average taken over epochs. This fraction of the dataset is added to the replay buffer.
 
-### Data retrieval from Replay buffer.
+### Data retrieval from Replay buffer
 This paper does not use all of the data present in Replay buffer to augment the training. It selects a subset of the data for each learnt task from the Replay buffer. It doesnot use the label information for selecting the data points. It selects those datapoints for which the model currently has gotten most confused about. Note that these datapoints were the easiest learning datapoints for the respective tasks.So the introduced confusion is directly related to forgetfulness of the model towards previously learnt tasks.
 >This confusion or the uncertainty is captured by estimating the entropy in the posterior distribution of labels with the help of dropout.
 
