@@ -3,6 +3,12 @@ layout: single
 permalink: /UNSUPERVISED_US_VIDEO/
 author_profile: true
 title: "SELF-SUPERVISED REPRESENTATION LEARNING FOR ULTRASOUND VIDEO"
+header:
+    overlay_image: /assets/images/alison_noble0.jpg
+    overlay_filter: 0.5
+    # image_description: My learnings at Qplum- 3 years zipped into a 10 min read
+    caption: "Photo credit: [**Unsplash:  Kelly Sikkema**](https://unsplash.com/@kellysikkema)"
+
 
 ---
 
