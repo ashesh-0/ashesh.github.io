@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /2008.08145/
+permalink: "/2008.08145/"
 author_profile: true
 title: "Category Level Object Pose Estimation via Neural Analysis-by-Synthesis"
 header:
