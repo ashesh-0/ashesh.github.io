@@ -3,6 +3,11 @@ layout: single
 permalink: /2007.13886/
 author_profile: true
 title: "Perpetual Motion: Generating Unbounded Human Motion"
+header:
+    overlay_image: /assets/images/siu_tang_4.png
+    overlay_filter: 0.5
+    # image_description: My learnings at Qplum- 3 years zipped into a 10 min read
+    caption: "Photo credit: [**ArXiv**](https://arxiv.org/abs/2007.13886)"
 
 ---
 
