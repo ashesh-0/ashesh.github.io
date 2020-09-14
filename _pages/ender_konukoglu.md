@@ -8,7 +8,6 @@ header:
     overlay_filter: 0.5
     # image_description: My learnings at Qplum- 3 years zipped into a 10 min read
     caption: "Photo credit: [**ArXiv**](https://arxiv.org/abs/2007.13123)"
-
 ---
 
 ## Super short description
@@ -30,5 +29,5 @@ title="Credits (https://arxiv.org/abs/2007.13123)"/>
 
 $$Bx$$ is the predicted estimate.
 
-3. For doing the above mentioned optimization, they follow an iterative approach where they move the estimatealong the direction of gradient of ELBO. This will necessarily make sure that the ELBO score increases and therefore the 'naturalness' of the estimate increases. This transformation is named as Prior projection ($$P_{prior}$$)
-4. However, this process may change the content of the the estimate. Therefore they compute how much deviation has occured in the estimate from $$y$$ and then subtract out that deviation from the estimate. They name it as data consistency projection $$(P_{DC})$$. They also briefly mention another projection named as phase projection which they directly take from another paper.
+3. For doing the above mentioned optimization, they follow an iterative approach where they move the estimate along the direction of gradient of ELBO. This will necessarily make sure that the ELBO score increases and therefore the 'naturalness' of the estimate increases. This transformation is named as Prior projection ($$P_{prior}$$)
+4. However, this process may change the content of the the estimate. Therefore they compute how much deviation has occured in the estimate from $$y$$ and then subtract out that deviation from the estimate. They name it as data consistency projection $$(P_{DC})$$. They also briefly mention another projection named as phase projection which they directly take from another paper. estimation of $$B$$ is done using algorithm developed in another paper.
