@@ -1,4 +1,9 @@
 ---
+layout: single
+permalink: /DRCN/
+author_profile: true
+title: "Dual Resolution Corresponding Networks"
+
 header:
     image: /assets/images/dual_resol_corres_net.png
     # overlay_filter: 0.5

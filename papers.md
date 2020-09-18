@@ -20,3 +20,4 @@ classes: wide
 * Self-Supervised Localisation between Range Sensors and Overhead Imagery. [Link](/pnm_radar_based_localization/)
 * RELATE: Physically Plausible Multi-Object Scene Synthesis Using Structured Latent Spaces. [Link](/RELATE/)
 * Perpetual Motion: Generating Unbounded Human Motion. [Link](/2007.13886/)
+* Dual Resolution Corresponding Networks. [Link](/DRCN/)
