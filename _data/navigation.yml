@@ -6,5 +6,7 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Qplum"
     url: /qplum/
+  - title: "Paper notes"
+    url: /papers/
   # - title: "Sample Collections"
   #   url: /collection-archive/
