@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Short notes on Interesting Papers
+title: Short Notes on Few Interesting Papers
 permalink: /papers/
 author_profile: true
 classes: wide
