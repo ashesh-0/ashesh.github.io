@@ -9,8 +9,4 @@ I'm working as a Research Assistant in [National Taiwan University](https://www.
 * 3D Gaze estimation in the Wild. [arXiv Link](https://arxiv.org/abs/2009.06924)
 * Extreme Precipitation prediction. [Problem Statement](/extreme_rainfall/)
 
-I received B.Tech+M.Tech in [Computer Science](https://www.cse.iitd.ernet.in/)
-in 2015, from the IIT Delhi.
-
-I worked as a Data Scientist at [Qplum](/qplum/),  an online investment advisory firm, from Dec 2015
-to Dec 2018.
+I received B.Tech+M.Tech in [Computer Science](https://www.cse.iitd.ernet.in/) in 2015, from the IIT Delhi. I worked as a Data Scientist at [Qplum](/qplum/),  an online investment advisory firm, from Dec 2015 to Dec 2018.
