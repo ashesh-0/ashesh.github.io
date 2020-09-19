@@ -6,13 +6,6 @@ author_profile: true
 classes: wide
 ---
 
-## ML + BIO
-* Self-Supervised Representation Learning For Ultrasound Video. [Link](/UNSUPERVISED_US_VIDEO/)
-* CLOPS: Continual Learning of Physiological Signals [Link](/CLOPS/)
-* Joint reconstruction and bias field correction for undersampled MR imaging. [Link](/2007.13123/)
-* A deep spatiotemporal graph learning architecture for brain connectivity analysis. [Link](/9175360/)
-
-
 ## Vision
 * Rethinking Class Relations: Absolute-relative Few-shot Learning. [Link](/ARL/)
 * CLIFER: Continual Learning with Imagination for Facial Expression Recognition. [Link](/CLIFER/)
@@ -27,3 +20,9 @@ classes: wide
 * 360-Degree Gaze Estimation in the Wild Using Multiple Zoom Scales. [Link](/gaze/)
 * Deep eye fixation map learning for calibration-free eye gaze tracking. [Link](/defm_2016/)
 * A Hierarchical Generative Model for Eye Image Synthesis and Eye Gaze Estimation [Link](/HGSM/)
+
+## ML + BIO
+* Self-Supervised Representation Learning For Ultrasound Video. [Link](/UNSUPERVISED_US_VIDEO/)
+* CLOPS: Continual Learning of Physiological Signals [Link](/CLOPS/)
+* Joint reconstruction and bias field correction for undersampled MR imaging. [Link](/2007.13123/)
+* A deep spatiotemporal graph learning architecture for brain connectivity analysis. [Link](/9175360/)
