@@ -106,8 +106,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ashesh-0/"
-    - label: "Kaggle"
-      url: "https://www.kaggle.com/silence2"
     - label: "CV"
       url: "https://docs.google.com/document/d/1tG6psbZns3pmT0fGzA3eoCB8GltZTCBGKaviqUA8KU0"
 
@@ -121,8 +119,8 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ashesh-0/"
     - label: "Kaggle"
-      # icon: "fas fa-fw fa-kaggle"
-      # url: "https://www.kaggle.com/silence2"
+      icon: "fas fa-fw fa-kaggle"
+      url: "https://www.kaggle.com/silence2"
 
 
 

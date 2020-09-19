@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: true
-title: My learnings at Qplum- 3 years zipped into a 10 min read
+title: My Learnings at Qplum- 3 Years Zipped into a 10 Min Read
 toc: true
 header:
     overlay_image: /assets/images/austin-distel-DfjJMVhwH_8-unsplash.jpg
