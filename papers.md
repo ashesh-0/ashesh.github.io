@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Paper Summaries
+title: Short notes on Interesting Papers
 permalink: /papers/
 author_profile: true
 classes: wide
@@ -25,3 +25,5 @@ classes: wide
 ### Gaze Estimation
 * Learning-by-Synthesis for Appearance-based 3D Gaze Estimation. [Link](/learning_by_synthesis/)
 * 360-Degree Gaze Estimation in the Wild Using Multiple Zoom Scales. [Link](/gaze/)
+* Deep eye fixation map learning for calibration-free eye gaze tracking. [Link](/defm_2016/)
+* A Hierarchical Generative Model for Eye Image Synthesis and Eye Gaze Estimation [Link](/HGSM/)

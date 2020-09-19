@@ -13,11 +13,11 @@ header:
 
 ---
 
-## Super short introduction
+## Super Short Introduction
 * [Paper Link](https://arxiv.org/abs/2009.06924)
 * This work of mine solves the problem of estimating gaze of a person in unconstrained environments - variable camera-person distance and full $$360^\circ$$ variation in Yaw. Variable camera-person distance is handled via a multi-scale approach where features from multiple scales are aggregated. A full $$360^\circ$$ variation in Yaw raises an interesting problem of predicting backward gazes which is improved upon by using a weighted sine-cosine transformation.
 
-## An overview of the methodology
+## An Overview of the Methodology
 ### Definitions:
 * Yaw $$\theta$$ and Pitch $$\phi$$ angle: In polar co-ordinates a normalized 3D vector can be represented by 2 angles. Gaze vector is therefore represented by $$\theta$$ (left right orientation) and $$\phi$$ (top down orientation).
 
@@ -42,7 +42,8 @@ It is easy to see that in sine-cosine space, there is no discontinuity at $$\the
 ### Weighted Sine-Cosine Transformation
 We observe that $$\theta_C$$ is not able to predict $$0^\circ$$ and $$\theta_S$$ is not able to predict $$\pm\pi/2$$ as can be seen in below figure where we look at their distributions.
 <div style="text-align:center"><img src="../assets/images/own_SC_dip.png" alt="drawing"
-title="Noticing a dip around 0-degree. (Credits: https://arxiv.org/abs/2009.06924) "/></div>
+title="Noticin
+g a dip around 0-degree. (Credits: https://arxiv.org/abs/2009.06924) "/></div>
 
 We argue that it is due to low derivative of $$tanh$$ around $$\pm1$$ and high derivative of $$sin^{-1}$$ and $$cos{-1}$$ around $$\pm\pi/2$$ and $$0^\circ$$ respectively. We fix this by using a weighted average scheme. Our final prediction for yaw,
 
