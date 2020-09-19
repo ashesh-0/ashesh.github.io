@@ -4,7 +4,7 @@ title: Extreme Precipitation Prediction
 permalink: /extreme_rainfall/
 author_profile: true
 # toc: true
-classes: wide
+# classes: wide
 # header:
 #     overlay_image: /assets/images/own_collage.jpg
 #     overlay_filter: 0.5
@@ -19,8 +19,8 @@ In this project, the aim is to use radar's data to predict the rainfall. In term
 
 A simpler problem would be to estimate the rainfall given the radar data. However, our problem is instead to predict the rainfall several hours in advance with a special focus on extreme rainfall.
 
-## Important factors
+## Important Factors to Consider
 1. Latitude/Longitude
 2. Height above the mean sea level
-3. Temporal aspect
-4. Seasonality
+3. Temporal aspect of rain and radar data
+4. Seasonality of rainfall
