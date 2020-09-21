@@ -106,8 +106,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ashesh-0/"
-    - label: "CV"
-      url: "https://docs.google.com/document/d/1tG6psbZns3pmT0fGzA3eoCB8GltZTCBGKaviqUA8KU0"
 
       # Site Footer
 footer:

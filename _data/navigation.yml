@@ -10,5 +10,7 @@ main:
     url: /qplum/
   - title: "Paper Notes"
     url: /papers/
+  - title: Curriculum Vitae
+    url: /CV/
   # - title: "Sample Collections"
   #   url: /collection-archive/
