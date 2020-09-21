@@ -1,6 +1,7 @@
 ---
 layout: single
 permalink: /CV/
+title: Cirriculum Vitae
 classes: wide
 author_profile: true
 ---
