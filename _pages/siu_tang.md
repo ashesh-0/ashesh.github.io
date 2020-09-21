@@ -11,7 +11,7 @@ header:
 
 ---
 
-## Super short description
+## Super Short Description
 * [Paper Link](https://arxiv.org/abs/2007.13886)
 * This paper generates long sequences of human motion. Novelty here is its ability to predict long sequences (72K frames) by taking input very few sequences. In terms of a high level understanding, body pose and overall body translation feeds into each other thereby attaining the required correspondence between them which makes the predicted motion look natural. Technically, two-stream Variational autoencoders are used alongside RNNs.
 

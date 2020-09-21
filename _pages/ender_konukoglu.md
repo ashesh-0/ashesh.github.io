@@ -2,7 +2,7 @@
 layout: single
 permalink: /2007.13123/
 author_profile: true
-title: "Joint reconstruction and bias field correction for undersampled MR imaging"
+title: "Joint Reconstruction and Bias Field Correction for Undersampled MR Imaging"
 header:
     overlay_image: /assets/images/ender_k2.png
     overlay_filter: 0.5

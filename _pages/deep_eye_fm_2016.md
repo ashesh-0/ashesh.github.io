@@ -12,7 +12,7 @@ author_profile: true
 #     caption: "Photo credit: [**arXiv**](https://arxiv.org/abs/2009.06924)"
 
 ---
-## Super short introduction
+## Super Short Introduction
 * [Paper Link](https://dl.acm.org/doi/10.1145/2857491.2857515)
 * Novelty of the paper is its personal calibration procedure using Saliency maps. Here, a CNN based architecture is used to predict saliency maps- probablity of being looked given a image patch. For gaze estimation, regression based model is created for 2D gaze and a model-based analytical modelling is done for 3D gaze. Using the predicted gazes by the gaze model, paper models another version of saliency map by using gaussian mixture models with their mean set to the predicted PoRs (location on the image). Paper is able to estimate parameters of the gaze model by minimizing the KL divergence between the two saliency map distributions.
 
@@ -29,7 +29,7 @@ Eye gaze estimation is formulated for both 2D as well as 3D case. For 2D case, r
 <div style="text-align:center"><img src="../assets/images/defm_2016_2.png" alt="drawing"
 title="3D eye model. (Credits: https://dl.acm.org/doi/10.1145/2857491.2857515) "/></div>
 
-### Distribution based Calibration
+### Distribution Based Calibration
 We get the eye fixation map using RCNN ($$p_f(x,y\|I)$$) and using the gaze estimation model ($$p_g(x,y\|I,\theta)$$). For estimating the parameters of the gaze model, the paper minimizes the KL-divergence between these two fixation maps.
 
 <div style="text-align:center"><img src="../assets/images/defm_2016_1.png" alt="drawing"

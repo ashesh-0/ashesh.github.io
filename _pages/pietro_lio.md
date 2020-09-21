@@ -3,7 +3,7 @@ layout: single
 permalink: /9175360/
 author_profile: true
 classes: wide
-title: "A deep spatiotemporal graph learning architecture for brain connectivity analysis"
+title: "A Deep Spatiotemporal Graph Learning Architecture for Brain Connectivity Analysis"
 # header:
 #     overlay_image: /assets/images/siu_tang_4.png
 #     overlay_filter: 0.5
@@ -12,19 +12,19 @@ title: "A deep spatiotemporal graph learning architecture for brain connectivity
 
 ---
 
-## Super short description
+## Super Short Description
 * [Paper Link](https://ieeexplore.ieee.org/document/9175360)
 * Technical domain is Geometric Deep Learning and its application is on fMRI (brain) data. They present a methodology of incorporating spatial relationships between brain regions with the temporal variations in fMRI data of different brain regions. They show its effectiveness on a binary classification task of predicting sex from brain data.
 
 ## Brief Overview of Workings of the Paper
-### Conventions and nomenclatures:
+### Conventions and Nomenclatures:
 1. Different brain regions are termed as nodes (count: $$N$$).
 2. Input data is $$ N * T $$ where $$T$$, denoting the timeseries length, is 1200.
 3. Neighbourhood information: Dense adjacency matrix ($$N*N$$). Their architecture also can handle sparse neighbourhood information.
 <img src="../assets/images/pietro_1.png" alt="drawing"
 title="Credits (https://ieeexplore.ieee.org/document/9175360)"/>
 
-### Step by step procedure:
+### Step by Step Procedure:
 1. *Temporal feature extraction:* For each node, they use module composed of 1D CNN to extract features from the temporal data. Output is termed as Activation matrix ($$H(1)$$). Input output relationship: $$N*T => N*256$$
 2. *GCN Operations:* Message passing is used to incorporate the information in the activation matrix from neighboriing nodes' activation matrices. Activation matrix's shape remains the same. Input output relationship: $$N*256 => N*256$$
 

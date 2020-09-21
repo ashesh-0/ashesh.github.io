@@ -12,11 +12,11 @@ header:
     caption: "Photo credit: [**arXiv**](https://arxiv.org/abs/2006.02108)"
 
 ---
-## Super short description
+## Super Short Description
 * [Paper Link](https://arxiv.org/abs/2006.02108)
 * The goal is to pixelwise align image generated from live range sensor (radar/lidar) data with the overhead satellite image. Rotation angle and translation offset in x and y direction are the target to be predicted. Following previous work, the paper finds the rotation angle first and then finds the x,y translations. Key contribution is the unsupervised methodology for both angle and translation estimation.
 
-## Summary of paper's methodology
+## Summary of Paper's Methodology
 As mentioned in the description above, the goal here to predict the rotation angle $$\theta$$ and the translation vector $$\alpha$$ which, when applied on the range sensor generated image, would align it with the given satellite image.
 Here, we will call range sensor generated image as modality B and satellite image as modality A
 
@@ -31,7 +31,7 @@ $$I_{B\theta}$$. For the second pass, they make several rotated versions of the 
 
 
 
-### Estimating $$\alpha$$: PASED module
+### Estimating $$\alpha$$: PASED Module
 For this task, input is $$I_A$$ and $$I_{B\theta}$$ generated from the previous module. These two images are rotationally aligned and only the translation offset needs to be found.
 
 For doing that, they needed following modules:

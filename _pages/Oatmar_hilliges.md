@@ -10,12 +10,12 @@ header:
     caption: "Photo credit: [**arXiv**](https://arxiv.org/abs/2008.08145)"
 
 ---
-## Super short description
+## Super Short Description
 * [Paper Link](https://arxiv.org/abs/2008.08145)
 * Pose estimation problem is tackled here. Firstly, a generative module is trained to generate images by taking input image embedding and its 6D pose. At evaluation time, input image embedding is passed through the generative module  to yield an image. With the objective to make generated image identical to input image , using gradient descent, the input pose and shape are iteratively updated. Besides the model architecture, other highlight of the paper is its good performance despite not using either a CAD model or depth information for the reference object.
 
-## A concise overview on approach taken
-### Pose-aware Image Generator
+## A Concise Overview on Approach Taken
+### Pose-Aware Image Generator
 <img src="../assets/images/oatmar_1.png" alt="drawing"
 title="Credits: https://arxiv.org/abs/2008.08145 "/>
 
@@ -25,7 +25,7 @@ This module takes input the image embedding a.k.a the latent code and 6D pose ve
 3. Rotated 3D feature volume is then projected into 2D space.
 4. Generating the image from 2D feature map. At this point, translation and in-plane rotation as defined in the 6D pose vector is applied on the generated image.
 
-### Object pose estimation
+### Object Pose Estimation
 <img src="../assets/images/oatmar_2.png" alt="drawing"
 title="Credits: https://arxiv.org/abs/2008.08145 "/>
 

@@ -12,11 +12,11 @@ title: "Learning-by-Synthesis for Appearance-based 3D Gaze Estimation"
 
 ---
 
-## Super short introduction
+## Super Short Introduction
 * [Paper Link](https://ieeexplore.ieee.org/document/6909631)
 * Here, they introduce a new dataset for 3D Gaze estimation. Another novelty of the paper is data generation procedure. Using 8 cameras, they are able to reconstruct 3D structure of eye-region using which they generate augmented data by varying the virtual camera and projecting the 3D points onto the virtual camera screen. This yields eye-region with novel head poses. They use regression forest for estimating the gaze.
 
-## Brief overview
+## Brief Overview
 ### Dataset Description
 The dataset has 64K images which comprises of 50 subjects, 8 views (head poses) and 160 gaze directions.
 <figure class="half">
