@@ -14,6 +14,7 @@ classes: wide
 * RELATE: Physically Plausible Multi-Object Scene Synthesis Using Structured Latent Spaces. [Link](/RELATE/)
 * Perpetual Motion: Generating Unbounded Human Motion. [Link](/2007.13886/)
 * Dual Resolution Corresponding Networks. [Link](/DRCN/)
+* Self-supervised Learning of Interpretable Key Points from Unlabelled Videos [Link](/Jakab20/)
 
 ### Gaze Estimation
 * Learning-by-Synthesis for Appearance-based 3D Gaze Estimation. [Link](/learning_by_synthesis/)
