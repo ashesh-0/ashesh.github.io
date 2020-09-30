@@ -17,6 +17,7 @@ author_profile: true
 * It works on 3D MRI data of human brain primarily for prediction of Alzheimer disease. Novelty of the paper is more generalizability, more interpretebility and faster training time, all due to its novel architectural design. A RL agent is trained to find small 3D volumes of interest from which feature are generated which are subsequently assimilated with LSTM. Additionally, it naturally supports other forms of non-imaging input information by incorporating them as LSTM's initial state.
 
 ## Brief Description of Main Ideas
+An architecture tailor-made for MRI data processing is the main content of this paper. This architecture has been divided into multiple subnetworks as can be seen in image below. They are briefly described in following sections.
 <figure>
     <a href="../assets/images/james_cole_1.png"><img src="../assets/images/james_cole_1.png"></a>
     <figcaption>Proposed Architecture (Credits: https://arxiv.org/pdf/1910.04721.pdf).</figcaption>
@@ -34,8 +35,8 @@ author_profile: true
 * Internals: This network assimilates information from all seen glimpses till that point in time.
 
 ### Other Sub-Networks
-* Location network is a single fully connected network giving output a 3D vector $$\mu_t$$. The location $$l_{t+1}$$ is sampled from a gaussian distribution with $$\mu_t$$ as mean. This randomness improves generalization.
-* Non-imaging context network takes as input non image based input and generates a representation which gets fed to the Recurrent network.
+* Location network is a single fully connected network giving output a 3D vector $$\mu_t$$. The location $$l_{t+1}$$ is sampled from a gaussian distribution with $$\mu_t$$ as mean. This randomness improves generalization. Benefit of this network is that one does not have to process all of the 3D data. One can just use small amount of 3D volume (~ a glimpse) to improve the prediction.
+* Non-Imaging Context Network takes as input non image based input and generates a representation which gets fed to the Recurrent network.
 * Classification network is a single layer fully connected NN with sigmoid activation. Output from the recurrent network is fed to this network as input for predicting the probablity of Alzheimer disease. By not using the output of the Non-imaging context netowrk directly as input, it ensures that MRI data is used as the primary source of knowledge and other data more like a 'supplimentary info'.
 
 ### RL Agent Configuration
