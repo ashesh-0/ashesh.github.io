@@ -5,6 +5,12 @@ permalink: /papers/
 author_profile: true
 classes: wide
 ---
+## ML + BIO
+* Ultrasound Video Summarization using Deep Reinforcement Learning. [Link](/VideoSummRL/)
+* Self-Supervised Representation Learning For Ultrasound Video. [Link](/UNSUPERVISED_US_VIDEO/)
+* CLOPS: Continual Learning of Physiological Signals [Link](/CLOPS/)
+* Joint reconstruction and bias field correction for undersampled MR imaging. [Link](/2007.13123/)
+* A deep spatiotemporal graph learning architecture for brain connectivity analysis. [Link](/9175360/)
 
 ## Vision
 * Rethinking Class Relations: Absolute-relative Few-shot Learning. [Link](/ARL/)
@@ -22,8 +28,3 @@ classes: wide
 * Deep eye fixation map learning for calibration-free eye gaze tracking. [Link](/defm_2016/)
 * A Hierarchical Generative Model for Eye Image Synthesis and Eye Gaze Estimation [Link](/HGSM/)
 
-## ML + BIO
-* Self-Supervised Representation Learning For Ultrasound Video. [Link](/UNSUPERVISED_US_VIDEO/)
-* CLOPS: Continual Learning of Physiological Signals [Link](/CLOPS/)
-* Joint reconstruction and bias field correction for undersampled MR imaging. [Link](/2007.13123/)
-* A deep spatiotemporal graph learning architecture for brain connectivity analysis. [Link](/9175360/)
