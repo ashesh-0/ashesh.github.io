@@ -20,7 +20,7 @@ A pretrained diagnostic view plane detection network is used for feature extract
 ## RL setting
 *  **Input**: Output of the bi-LSTM for each frame.
 * **Action $$a_t$$**:  For every frame, a boolean decision is to be made: Whether to include it in the summary or not.
-* **Reward**: It has multiple components. $$R_{det}$$ determines the likelihood of being a standard diagnostic plane. $$R_{rep}$$ defines how much it is representative of the entire video. $$R_{div}$$ evaluates the quality of the summary.
+* **Reward**: It has multiple components. $$R_{det}$$ determines the likelihood of a summary's frame being a standard diagnostic plane. $$R_{rep}$$ defines how much summary frames are representative of the entire video. $$R_{div}$$ ensures diversity within the summary frames.
     * In $$R_{rep}$$, for every frame of the video, it finds most similar frame present in the summary $$S$$ with which it finds the distance. This component is simply the average of the distance over all frames of the video.
 
     > $$R_{rep} = exp(-1/T \sum_{t=1}^T \underset{t'\in S}{min}||x_t - x_{t'}||)$$
