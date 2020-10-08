@@ -6,6 +6,7 @@ author_profile: true
 classes: wide
 ---
 ## ML + BIO
+* Modality Attention and Sampling Enables Deep Learning with Heterogeneous Marker Combinations in Fluorescence Microscopy. [Link](/MAS_FM/)
 * Ultrasound Video Summarization using Deep Reinforcement Learning. [Link](/VideoSummRL/)
 * Self-Supervised Representation Learning For Ultrasound Video. [Link](/UNSUPERVISED_US_VIDEO/)
 * CLOPS: Continual Learning of Physiological Signals [Link](/CLOPS/)
