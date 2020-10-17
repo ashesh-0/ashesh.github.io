@@ -8,11 +8,11 @@ header:
     overlay_image: /assets/images/noise_to_void_bkg.png
     overlay_filter: 0.5
     # image_description: My learnings at Qplum- 3 years zipped into a 10 min read
-    caption: "Source: [**arXiv**](https://arxiv.org/pdf/1811.10980.pdf)"
+    caption: "Source: [**arXiv**](https://arxiv.org/abs/1811.10980)"
 
 ---
 ## Super Short Description
-* [Paper Link](https://arxiv.org/pdf/1811.10980.pdf)
+* [Paper Link](https://arxiv.org/abs/1811.10980)
 * This paper denoises an image. Novelty of the paper is its ability to train the network without denoised data. Model is trained with a set of images in which some of the images may be clear and some may be noisy. It achieves it by learning to predict a pixel from its neighbouring pixels. In expectation, what the network predicts will be devoid of unstructured noise and therefore it does such a nice job at denoising.
 
 ## Brief Description of Main Ideas
@@ -27,12 +27,12 @@ As discussed above, the network has to take as input an image patch whose centra
 <figure class="half">
     <a href="/assets/images/noise_to_void_orig2.png"><img src="/assets/images/noise_to_void_orig2.png"></a>
     <a href="/assets/images/noise_to_void_den2.png"><img src="/assets/images/noise_to_void_den2.png"></a>
-    <figcaption> Original Image (a) has structural noise (tiled effect) along with white noise. Denoised version (c) removes white noise but retains the structural noise (tiled effect) (Credits: https://arxiv.org/pdf/1811.10980.pdf).</figcaption>
+    <figcaption> Original Image (a) has structural noise (tiled effect) along with white noise. Denoised version (c) removes white noise but retains the structural noise (tiled effect) (Credits: https://arxiv.org/abs/1811.10980).</figcaption>
 </figure>
 
 * *Data does not have independent pixels:* In case image has very high contrast with pixel values changing almost unpredictably. In that case, the high contract will be blurred as it will be considered as noise.
 <figure class="half">
     <a href="/assets/images/noise_to_void_orig.png"><img src="/assets/images/noise_to_void_orig.png"></a>
     <a href="/assets/images/noise_to_void_den.png"><img src="/assets/images/noise_to_void_den.png"></a>
-    <figcaption> Original Image (d) has high contrast and pixel values are naturally jittery. Denoised version (f) loses those details (Credits: https://arxiv.org/pdf/1811.10980.pdf).</figcaption>
+    <figcaption> Original Image (d) has high contrast and pixel values are naturally jittery. Denoised version (f) loses those details (Credits: https://arxiv.org/abs/1811.10980).</figcaption>
 </figure>
