@@ -6,6 +6,7 @@ author_profile: true
 classes: wide
 ---
 ## ML + BIO
+* Efficient Deep Network Architectures for Fast Chest X-Ray Tuberculosis Screening and Visualization. [Link](/fast_xray_TB/)
 * Noise2Void - Learning Denoising from Single Noisy Images. [Link](/Noise2Void/)
 * Modality Attention and Sampling Enables Deep Learning with Heterogeneous Marker Combinations in Fluorescence Microscopy. [Link](/MAS_FM/)
 * Ultrasound Video Summarization using Deep Reinforcement Learning. [Link](/VideoSummRL/)
