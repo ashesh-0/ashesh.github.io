@@ -6,10 +6,10 @@ permalink: /DECODE/
 author_profile: true
 # toc: true
 classes: wide
-# header:
-#     image: /assets/images/hgms_3.png
-#     # overlay_filter: 0.5
-#     caption: "Photo credit: [**IEEE**](https://arxiv.org/abs/1907.00770)"
+header:
+    overlay_image: /assets/images/DECODE_1.png
+    overlay_filter: 0.5
+    caption: "Photo credit: [**ArXiv**](https://arxiv.org/abs/1907.00770)"
 
 ---
 ## Super Short Introduction
