@@ -25,10 +25,10 @@ header:
     3. its brightness,
     4. the uncertainty estimates in brightness estimation and localization estimation.
 
-    This prediction is delivered by the model by giving output an 8 channel feature map having the same spatial dimensions as the input frames.
+    This prediction is delivered by the model by giving output an 9 feature map (paper erroneously states it as 8) having the same spatial dimensions as the input frames with each channel corresponding to one output type as described above.
 
 ### DECODE network overview
-It has two submodules. Frame analysis module takes as input one frame and it predicts the feature embeddings. Temporal Context Module takes in these feature embeddings and predict the 8 channel feature maps which is the network's output.
+It has two submodules. Frame analysis module takes as input one frame and it predicts the feature embeddings. Temporal Context Module takes in these feature embeddings and predict the multi-channel feature maps which is the network's output.
 <figure>
     <a href="../assets/images/DECODE_1.png"><img src="../assets/images/DECODE_1.png"></a>
     <figcaption>Proposed Architecture (Credits: https://arxiv.org/abs/1907.00770).</figcaption>
