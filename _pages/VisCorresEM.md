@@ -46,7 +46,7 @@ For having resource and time efficiency, one needs to intelligently sample few v
 </figure>
 
 #### Some Intuition
-* If we select two nearby voxels for sampling then it would be inefficient as they would have overlapping patches. Therefore the grid is constructed and only centroids could get sampled. This naturally spaces our the choices.
+* If we select two nearby voxels for sampling then it would be inefficient as they would have overlapping patches. Therefore the grid is constructed and only centroids could get sampled. This naturally spaces out the choices.
 * To better discriminate between foreground and background, information is required on how the texture and pattern changes at the boundary and so boundary regions are preferred.
 * Sampling confusing voxels from background would improve the quality of correspondences. In case the target domain also has such 'confusing' voxels, then without including these in training data, it would be more likely that foreground voxels of the source domain make the correspondence with them.
 
