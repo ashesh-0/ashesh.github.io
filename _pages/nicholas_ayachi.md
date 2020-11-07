@@ -29,4 +29,4 @@ Decoder takes as input the motion matrix and the first image of the input sequen
 A zero vector is taken as the output of the feature extractor for those images in the sequence which are absent. One needs to appreciate the TCN, since  it is TCN which still is able to provide a meaningful posterior mean and standard deviation comprising all elements of the sequence. Additionally, temporal dropout in the training procedure also helped the model to do such things. In temporal dropout, some of the feature representations were intentionally left out randomly during training. This forced the model to learn to interpolate for the missing element.
 
 ### Transport
-It flows naturally from the structure of the model. The motion matrix $$z$$ of one object is taken and is fed to the decoder with the first image of the input sequence for another object.
+It flows naturally from the structure of the model. The motion matrix $$z$$ of one object is taken and is fed to the decoder with the first image of the input sequence of another object.
