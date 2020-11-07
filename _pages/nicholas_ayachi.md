@@ -12,7 +12,7 @@ header:
 
 ## Super Short Description
 * [Paper Link](https://arxiv.org/pdf/2011.01741.pdf)
-* Given a sequence of images, this paper learns to predict a motion model. It predicts warping parameters for each element in the sequence. Simply stated, when the first image of the sequence is warped with say predicted warping parameters of $$5^{th}$$ element, then $$5^{th}$$ image of the sequence should get formed. It uses conditional VAE for this. For having a non-fluctuating motion model, a temporal convolutional network is used. For making the model capable of generating consistant warping parameters for missing images in the sequence, temporal dropout is introduced. Further, the paper also shows the capability of transport: applying the motion of one object on another.
+* Given a sequence of images, this paper learns to predict a motion model. It predicts warping parameters for each element in the sequence. Simply stated, when the first image of the sequence is warped with say predicted warping parameters of $$5^{th}$$ element, then $$5^{th}$$ image of the sequence should get formed. It uses conditional VAE for this. For having a non-fluctuating motion model, a temporal convolutional network is used. For making the model capable of generating consistant warping parameters for missing images in the sequence, temporal dropout is introduced in training. Further, the paper also shows the capability of transport: applying the motion of one object on another.
 
 ## Brief Overview of the Methodology
 ### Encoder
