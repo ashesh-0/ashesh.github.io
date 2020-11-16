@@ -26,7 +26,7 @@ In CCA, they have to be ignored since only shared information is captured.
 For both encoder and decoder, two different types are used for the two modalities. A CNN based architecture is used for image whereas a single dense layer is used for gene expression.
 
 ### Data flow
-The two inputs (image and the gene expression) are passed through their respective encoders to get embeddings. The outputs are subsequently passed on the PPCA module where one gets two modality specific components and one shared component. Using them, the emeddings are first reconstructed. The reconstructed embeddings are then passed to their respective decoders to yeild reconstructed inputs. The flow is shown in the figure below.
+The two inputs (image and the gene expression) are passed through their respective encoders to get embeddings. The outputs are subsequently passed on the PCCA module where one gets two modality specific components and one shared component. Using them, the embeddings are first reconstructed. The reconstructed embeddings are then passed to their respective decoders to yeild reconstructed inputs. The flow is shown in the figure below.
 <figure>
     <a href="../assets/images/deep_ppca_1.png"><img src="../assets/images/deep_ppca_1.png"></a>
     <figcaption>Proposed Architecture (Credits: http://auai.org/uai2019/proceedings/papers/340.pdf).</figcaption>
