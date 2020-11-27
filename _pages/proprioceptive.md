@@ -7,7 +7,7 @@ title: "Task-driven hierarchical deep neural network models of the proprioceptiv
 header:
     overlay_image: /assets/images/proprioceptive_3.png
     overlay_filter: 0.5
-    caption: "Photo credit: [**BioRxiv**](https://www.biorxiv.org/content/10.1101/2020.05.06.081372v1)"
+    caption: "Photo credit: [**bioRxiv**](https://www.biorxiv.org/content/10.1101/2020.05.06.081372v1)"
 
 ---
 
