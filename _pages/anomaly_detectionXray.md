@@ -13,7 +13,7 @@ header:
 ---
 ## Super Short Description
 * [Paper Link](https://arxiv.org/abs/2010.09856)
-*  This paper does unsupervised anomaly detection using clustering based approach using an autoencoder network. Paper is able to extract prototypical representations of training data in embedding space (This is essentially clustering). Anomaly score is obtained in the embedding space by comparing test embedding with prototypical representations. The crux of the paper lies in its different loss components.
+*  This paper does unsupervised anomaly detection using clustering based approach using an autoencoder network. Paper is able to extract prototypical representations of training data in embedding space in a clustered way. Anomaly score is obtained in the embedding space by comparing test embedding with closest prototypical representations from training data. The crux of the paper lies in its different loss components and use of memory bank for time efficiency.
 
 ## Brief Overview of the Methodology
 
