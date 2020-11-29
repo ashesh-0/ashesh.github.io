@@ -26,7 +26,7 @@ header:
 >$$z_t = \alpha_tz_0 + (1-\alpha_t)z_T$$
 <figure>
     <a href="../assets/images/deep_prior_MRI_1.png"><img src="../assets/images/deep_prior_MRI_1.png"></a>
-    <figcaption> Interpolation of $$z$$ (Credits: https://arxiv.org/abs/1910.01684).</figcaption>
+    <figcaption> Interpolation of latent variable (Credits: https://arxiv.org/abs/1910.01684).</figcaption>
 </figure>
 
 
