@@ -39,7 +39,7 @@ Embedding of all examples in training data is saved in this array like structure
 <figure class="half">
     <a href="/assets/images/SALAD_4.png"><img src="/assets/images/SALAD_4.png"></a>
     <a href="/assets/images/SALAD_3.png"><img src="/assets/images/SALAD_3.png"></a>
-    <figcaption>Memory Bank. (Left) Its each entry gets updated with corresponding embeddings computed in each epoch.(Right) Moving average updated methodology (Credits: https://arxiv.org/abs/2010.09856)</figcaption>
+    <figcaption>Memory Bank. (Left) Its each entry gets updated with corresponding embeddings computed in each epoch. (Right) Moving average updated methodology (Credits: https://arxiv.org/abs/2010.09856)</figcaption>
 </figure>
 ### Aggregation Loss (for clustering)
 It is very similar to how $$L_{ss}$$ works. The difference is that dot product in $$p_{i,j}$$ is computed between embeddings of two similar looking but different images.
