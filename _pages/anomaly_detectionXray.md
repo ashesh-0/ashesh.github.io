@@ -35,7 +35,7 @@ For some intuition, note that for minimizing $$L_{ss}$$ with fixed individual $$
 Training happens in two phases. In the first pre-training phase, the network is trained using $$L_{mse} + L_{ss}$$. In the second phase, another component $$L_{agg}$$ is added which ensures that clustering of similar training images happens in the embedding space.
 
 ### Memory Bank
-Embedding of all examples in training data is saved in this array like structure. Updation is done by moving averaging. This is helpful to get top-k similar embeddings from the training data needed in the $$L_{agg}$$ described next.
+Embedding of all examples in training data is saved in this array like structure. Updation is done in a moving average way. This is helpful to get top-k similar embeddings from the training data needed in the $$L_{agg}$$ described in next section.
 <figure class="half">
     <a href="/assets/images/SALAD_4.png"><img src="/assets/images/SALAD_4.png"></a>
     <a href="/assets/images/SALAD_3.png"><img src="/assets/images/SALAD_3.png"></a>
