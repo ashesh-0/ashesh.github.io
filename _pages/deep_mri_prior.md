@@ -13,7 +13,7 @@ header:
 ---
 ## Super Short Description
 * [Paper Link](https://arxiv.org/abs/1910.01684)
-*  This work is about generating 2D MRI image temporal sequence from sinograms. The interesting part is that the approach is unsupervised, a generative model is used and piecewise linear interpolation in GAN's input latent space maps to temporal interpolation in the image space.
+*  This work is about generating 2D MRI image temporal sequence from sinograms. The interesting part is that the approach is unsupervised, a generative model is used and piecewise linear interpolation in generative model's input latent space maps to temporal interpolation in the image space.
 
 ## Brief Overview of the Methodology
 ### Initial Points to Note
