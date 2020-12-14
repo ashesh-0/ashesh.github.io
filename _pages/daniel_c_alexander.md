@@ -15,9 +15,9 @@ header:
 
 ## Brief Overview of the Methodology
 ### Notations and Definitions
-* Annotator specific spatial confusion matrix ($$A^{(r)}_{\phi}$$): For annotator r, this is a confusion matrix for each pixel in the input image over $$L$$ target labels.
+* Annotator specific spatial confusion matrix ($$A^{(r)}_{\phi}$$): For annotator $$r$$, this is a confusion matrix for each pixel in the input image over $$L$$ target labels.
 * Estimated True label distribution ($$\hat{p}_{\theta}(x)$$): For every pixel, it contains the probablity distribution over labels.
-* Estimated Annotator distribution ($$\hat{p}^{(r)}_{\theta}(x)$$): If estimator $$r$$ had to segment the image $$x$$, then he/she would estimate $$\hat{p}^{(r)}_{\theta}(x)$$ as the per-pixel true probablity distribution over labels.
+* Estimated Annotator distribution ($$\hat{p}^{(r)}_{\theta}(x)$$): It estimates the answer to the following question--- If annotator $$r$$ had to segment the image $$x$$, then what would his/her  estimate of per-pixel true probablity distribution over labels be?
 * Segmentation CNN: CNN network which predicts $$\hat{p}_{\theta}(x)$$ and takes MRI image as input.
 * Annotation CNN: CNN network which predicts $$A^{(r)}_{\phi}$$ and takes as input a MRI image.
 
