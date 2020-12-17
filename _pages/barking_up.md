@@ -7,10 +7,10 @@ title: "Barking up the right tree: an approach to search over molecule synthesis
 ---
 ## Super Short Description
 * [Paper Link](https://proceedings.neurips.cc/paper/2020/file/4cc05b35c2f937c5bd9e7d41d3686fff-Paper.pdf)
-*  This work is on generation of molecules using a generative model. Novelty of the paper is that it also outputs the molecule synthesis DAG: A step by step sequence of how the generated molecule can be constructed. Another interesting work done in the paper is that the work is able to ensure that the molecules possess some desired properties.
+*  This work is on generation of molecules using a generative model. Novelty of the paper is that it also outputs the molecule synthesis DAG: A step by step sequence of how the generated molecule can be constructed. Another interesting work done in the paper is that a specific training procedure ensures that molecules with targeted properties are generated.
 
 ## An Overview of Methodology
-Starting from a selected set of building blocks (simple chemical compounds), the molecule is built one step at a time. Paper defines different action types. Sequentially selecting appropriate actions from these action types leads to the DAG construction.  Qualitatively, actions include the choice of reactants, the number of reactants in a reaction and the number of reactions. Note that there are two sets for the choice of reactants: original building blocks and the intermediate compounds formed till that point in time. These actions are predicted from their respective action-type neural networks. For predicting the DAG, the paper represents DAG as a sequence of actions and it predicts one action at a time.
+Starting from a selected set of building blocks (simple chemical compounds), the molecule is built one step at a time. Paper defines different action types. Sequentially selecting appropriate actions, each belonging to one of those action types leads to the synthesis DAG construction.  Qualitatively, actions include the choice of reactants, the number of reactants in a reaction and the number of reactions. Note that there are two sets for the choice of reactants: original building blocks and the intermediate compounds formed till that point in time. These actions are predicted from their respective action-type neural networks. For predicting the DAG, the paper represents DAG as a sequence of actions and it predicts one action at a time.
 <figure>
     <a href="/assets/images/barkingDAG_4.png"><img src="/assets/images/barkingDAG_4.png"></a>
     <figcaption> An example DAG ( Credits: https://proceedings.neurips.cc/paper/2020/file/4cc05b35c2f937c5bd9e7d41d3686fff-Paper.pdf).</figcaption>
@@ -18,7 +18,7 @@ Starting from a selected set of building blocks (simple chemical compounds), the
 
 <figure>
     <a href="/assets/images/barkingDAG_3.png"><img src="/assets/images/barkingDAG_3.png"></a>
-    <figcaption> DAG shown above represented as sequence of Actions ( Credits: https://proceedings.neurips.cc/paper/2020/file/4cc05b35c2f937c5bd9e7d41d3686fff-Paper.pdf).</figcaption>
+    <figcaption> DAG shown above is represented here as a serialized sequence of actions ( Credits: https://proceedings.neurips.cc/paper/2020/file/4cc05b35c2f937c5bd9e7d41d3686fff-Paper.pdf).</figcaption>
 </figure>
 
 ### Action Types
