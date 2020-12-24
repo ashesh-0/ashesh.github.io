@@ -30,14 +30,14 @@ Radial sampling is getting more popular over Cartesian sampling these days. All 
 
 
 ### Broad Inferences
-4 networks were trained, each with a different data owing to a different undersampling patterns. It was observed that undersampling technique with rotating trajectories led to better models apparently because the aliases produced by them were in-coherent and noise-like.
+4 networks were trained, each with a different data owing to a different undersampling strategy. It was observed that undersampling technique with rotating trajectories led to better models apparently because the aliases produced by them were in-coherent and noise-like.
 The reconstruction time had a 5X improvement over contemporary compressed sensing techniques. This model also performed well on actual real time images.
 <figure>
     <a href="/assets/images/artifactMR_1.png"><img src="/assets/images/artifactMR_1.png"></a>
-    <figcaption>One can observe best reconstruction achieved in the last column at the arrow pointed location. This corresponds to non uniform rotated trajectory based undersampling. (Credits: https://pubmed.ncbi.nlm.nih.gov/30194880/)</figcaption>
+    <figcaption>One can observe best reconstruction achieved in the last column at location pointed by the arrow. This corresponds to non uniform rotated trajectory based undersampling. (Credits: https://pubmed.ncbi.nlm.nih.gov/30194880/)</figcaption>
 </figure>
 
 ### Limitations
-The main limitation here is that the training data was created when the patients had to hold their breath. However, in real life (test data), free breathing was allowed. Although, the model performed decently on test data as well, this is something which can definitely be improved upon.
+The main limitation here is that the training data was created when the patients had to hold their breath. However, in real life (test data), free breathing was allowed. Although the model performed decently on test data as well, this is something which can definitely be improved upon.
 
 Another limititation is regarding the richness of training data. Firstly, MR data is complex valued. Here, magnitude was used and the phase component was ignored. Secondly, MR data is retrieved from multiple coils. Here, a pre-processed form of it was used where multiple-coil data was combined.
