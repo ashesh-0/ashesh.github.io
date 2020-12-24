@@ -13,6 +13,7 @@ header:
 * [Paper Link](https://pubmed.ncbi.nlm.nih.gov/30194880/)
 *  This paper aims to remove artifacts from undersampled MR data for which supervised training of 3D (space + time) residual U-Net architecture is done. The work also analyses the effect of different sampling patterns used in k-space for undersampling. Novelty is achieving 5X speedup in reconstruction process and at the same time achieving better quality reconstructions.
 
+## Work Overview
 ### Background
 MR data can be represented fully in two ways: as an MR image and as an array of points in continuous K-space. K-space is the fourier transform of the MR image. For fast retrieval of MR data, in practice, less points from K-space are sampled (measured). This is called undersampling. However, the undersampling leads to different kinds of artifacts (also called as aliases) in the MR image. Task here is to remove those artifacts. It has been known from literature that certain sampling techniques lead to non-coherent, noise like artifacts in MR image. CNNs are arguably very good for denoising images and hence they are used in this work as well for denoising the undersampled MR data. So, the assumption is that the artifacts have to be non-coherent for CNNs to work well.
 
