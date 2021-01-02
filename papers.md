@@ -16,6 +16,14 @@ classes: wide
 * CLOPS: Continual Learning of Physiological Signals [Link](/CLOPS/)
 * Joint reconstruction and bias field correction for undersampled MR imaging. [Link](/2007.13123/)
 * A deep spatiotemporal graph learning architecture for brain connectivity analysis. [Link](/9175360/)
+* Rapid whole-heart CMR with single volume super-resolution. [Link](/rapidCMR/)
+* Real‐time cardiovascular MR with spatio‐temporal artifact suppression using deep learning–proof of concept in congenital heart disease. [Link](/artifactMR/)
+* Barking up the right tree: an approach to search over molecule synthesis DAGs. [Link](/BarkingDAG/)
+* Disentangling Human Error from the Ground Truth in Segmentation of Medical Images. [Link](/DisHumErrGT/)
+* Time-Dependent Deep Image Prior for Dynamic MRI. [Link](/deepPriorMRI/)
+* Anomaly Detection on X-Rays Using Self-Supervised Aggregation Learning. [Link](/SALAD/)
+* Task-driven hierarchical deep neural network models of the proprioceptive pathway. [Link](/proprioceptive/)
+* End-to-end training of deep probabilistic CCA on paired biomedical observations. [Link](/DeepPPCA/)
 
 ## Vision
 * Rethinking Class Relations: Absolute-relative Few-shot Learning. [Link](/ARL/)
@@ -26,6 +34,7 @@ classes: wide
 * Perpetual Motion: Generating Unbounded Human Motion. [Link](/2007.13886/)
 * Dual Resolution Corresponding Networks. [Link](/DRCN/)
 * Self-supervised Learning of Interpretable Key Points from Unlabelled Videos [Link](/Jakab20/)
+* Learning a Generative Motion Model from Image Sequences based on a Latent Motion Matrix. [Link](/GenLMM/)
 
 ### Gaze Estimation
 * Learning-by-Synthesis for Appearance-based 3D Gaze Estimation. [Link](/learning_by_synthesis/)
