@@ -13,7 +13,7 @@ header:
 ---
 ## Super Short Description
 * [Paper Link](https://arxiv.org/abs/1907.05600)
-*  This work is based on score matching. The primary concern tackled by the paper is that natural images lie in a small manifold and large part of the space does not contain any real examples. They tackle the difficulties arising arising from above fact by adding gaussian noise of different magnitudes to the image so as to cover whole space.
+*  This work is based on score matching. The primary concern tackled by the paper is that natural images lie in a small manifold and large part of the space does not contain any real examples. They tackle the difficulties arising from above fact by adding gaussian noise of different magnitudes to the image so as to cover whole space.
 
 ## Brief Overview of the Methodology
 ### Definitions
