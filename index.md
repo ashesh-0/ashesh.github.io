@@ -5,11 +5,11 @@ title: About Me
 # layout: single
 classes: wide
 ---
-Currently, I'm working as a PhD student in [Florian Jug](https://humantechnopole.it/en/people/florian-jug/)'s lab. The broad theme of the lab is to apply Machine learning techniques on biomedical data. My project is to do splitting: Split an superimposed image into its constituent channels. 
+Currently, I'm working as a PhD student in [Florian Jug](https://humantechnopole.it/en/people/florian-jug/)'s lab. The broad theme of the lab is to apply Machine learning techniques on microscopy data. My project is to do splitting: Split an superimposed image into its constituent channels. Recently published the work in [ICCV 23](https://ashesh-0.github.io/uSplit/).
 
 Prior to this, I was working as a Research Assistant in [National Taiwan University](https://www.ntu.edu.tw/english/), Taipei under Prof. [Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/). I worked on 2 projects:
-* 3D Gaze estimation in the wild. [BMVC 2021](https://www.bmvc2021-virtualconference.com/conference/papers/paper_0643.html)
-* Extreme precipitation prediction. [Problem Statement](/extreme_rainfall/), [Paper Link](https://journals.ametsoc.org/view/journals/aies/1/3/AIES-D-21-0005.1.xml)
+* 3D Gaze estimation in the wild. [BMVC 2021](https://www.bmvc2021-virtualconference.com/conference/papers/paper_0643.html).
+* Extreme precipitation prediction. [Problem Statement](/extreme_rainfall/), [Paper Link](https://journals.ametsoc.org/view/journals/aies/1/3/AIES-D-21-0005.1.xml).
 
 I received B.Tech+M.Tech in [Computer Science](https://www.cse.iitd.ernet.in/) in 2015, from the IIT Delhi. I worked as a Data Scientist at [Qplum](/qplum/),  an online investment advisory firm, from Dec 2015 to Dec 2018.
 
