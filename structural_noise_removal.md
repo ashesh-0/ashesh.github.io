@@ -42,7 +42,7 @@ On the notMNIST dataset, we also show the qualitative results of both noise inje
 title="Swapping noise on images from notMNIST dataset"/></div>
 
 We also show the noise removal results on CIFAR-10 and Places dataset. The results are shown below.
-<div style="text-align:center"><img src="../assets/images/CL_Places.png" alt="drawing"
+<div style="text-align:center"><img src="../assets/images/CL_results_places.png" alt="drawing"
 title="Removing structural noise from Places dataset images"/></div>
 
 <figure class="half">
