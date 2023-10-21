@@ -12,5 +12,7 @@ main:
     url: /papers/
   - title: Curriculum Vitae
     url: /CV/
+  - title: "Structural noise removal"
+    url: /structural_noise_removal/
   # - title: "Sample Collections"
   #   url: /collection-archive/
