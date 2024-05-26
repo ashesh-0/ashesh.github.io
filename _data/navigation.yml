@@ -4,7 +4,7 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "Latent Segregation"
+  - title: "Latent Space Splitting"
     url: /structural_noise_removal/
   - title: Gaze Estimation
     url: /gaze/
