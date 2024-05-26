@@ -8,7 +8,7 @@ classes: wide
 Currently, I'm working as a 3rd year PhD student in [Florian Jug](https://humantechnopole.it/en/people/florian-jug/)'s lab. The broad theme of the lab is to solve biologicaly problems using deep learning. My PhD project is an image decomposition task of splitting a superimposed image into its constituent channels. 
 
 We recently published our work in [uSplit](https://ashesh-0.github.io/uSplit/) at ICCV 23. Subsequently, we built on top of it to create [denoiSplit](https://arxiv.org/abs/2403.11854), a network which could do unsupervised denoising together with decomposition. This enabled (a) getting multiple predictions (a.k.a opinions of the network) for a single input and (b) model calibration: having a pixelwise estimate of error in the prediction. In my PhD, I also worked on [structural noise removal](/structural_noise_removal/) using contrastive learning on the latent space.
-<img src="assets/images/usplit_teaser.png" alt="drawing" class="center"
+<img src="assets/images/usplit_teaser.png" alt="drawing" class="center" width="800px" height="auto"
 title="Splitting: An image decomposition task"/>
 
 On the coding side, I've been interested in contributing to microscopy data related code: (a) [c-mda-engine](https://github.com/pymmcore-plus/c-mda-engine), a proof-of-concept C++ based engine for controlling microscopes. Idea was to move re-usable code from different downstream applications to a common codebase and use [SWIG](https://www.swig.org/Doc1.3/Python.html) to generate python bindings. (b) I recently (May 2024) started contributing to [microsim](https://github.com/ashesh-0/microsim), a light microscopy simulator.
