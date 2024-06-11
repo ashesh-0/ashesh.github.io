@@ -8,7 +8,6 @@ classes: wide
 header:
     overlay_image: /assets/images/own_collage.jpg
     overlay_filter: 0.5
-    # image_description: My learnings at Qplum- 3 years zipped into a 10 min read
     caption: "Photo credit: [**arXiv**](https://arxiv.org/abs/2009.06924)"
 
 ---
