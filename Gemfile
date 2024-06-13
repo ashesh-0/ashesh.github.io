@@ -5,3 +5,5 @@ gem "github-pages", group: :jekyll_plugins
 gem "jekyll-include-cache"
 gem 'jekyll-feed'
 gem "kramdown", ">= 2.3.0"
+
+gem "webrick", "~> 1.8"
