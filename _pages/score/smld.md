@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /SM/SMLD/
+permalink: /diffusion/SMLD/
 author_profile: true
 # classes: wide
 title: "Generative Modeling by Estimating Gradients of the Data Distribution"
