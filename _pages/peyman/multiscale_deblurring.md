@@ -24,11 +24,11 @@ In order to improve the out-of-distribution performance, the authors ensure two 
 The conditional input, which is a blurry image, is downsampled multiple times. For each downsampled version, a guidance network is trained in a supervised way to predict the clean image version of the blurry image at the corresponding resolution. This ensures that the network learns to extract the most relevant information from the blurry image. 
 <figure>
     <a href="../assets/images/peyman_deblurring_multiscale_setup.png"><img src="../assets/images/peyman_deblurring_multiscale_setup.png"></a>
-    <figcaption> Learned Structural guidance (Credits: https://arxiv.org/abs/2010.09856).</figcaption>
+    <figcaption> Learned Structural guidance (Credits: https://arxiv.org/abs/2212.01789).</figcaption>
 </figure>
 
 The latent representation of each of these downsampled versions are then merged with the corresponding latent representation of the UNet, the restoration module of the diffusion model.
 <figure>
     <a href="../assets/images/peyman_deblurring_overall.png"><img src="../assets/images/peyman_deblurring_overall.png"></a>
-    <figcaption> Overall model architecture (Credits: https://arxiv.org/abs/2010.09856).</figcaption>
+    <figcaption> Overall model architecture (Credits: https://arxiv.org/abs/2212.01789).</figcaption>
 </figure>
