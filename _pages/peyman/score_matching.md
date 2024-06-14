@@ -18,10 +18,8 @@ header:
 ## Soft score matching
 
 The authors work with linear corruptions which could be modelled by a matrix multiplication as denoted by $$C_t$$ below (blur). 
-<figure>
-    <a href="/assets/images/peyman_score_matching_degradation.png"><img src="/assets/images/peyman_score_matching_degradation.png"></a>
-    <!-- <figcaption> Degradation family considered in this paper (Credits: https://arxiv.org/abs/2209.05442).</figcaption> -->
-</figure>
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/peyman_score_matching_degradation.png){: .align-center}
+
 The extend the DSM equivalence proof (Vincent 2011) to the case of such corruptions, i.e, in the equations shown below, minimizing $$J_1(\theta)$$ is same as minimizing $$J_2(\theta)$$. Specifically, under "mild" conditions, one only needs conditional log-likelihood to learn the score.
 <figure>
     <a href="/assets/images/peyman_score_matching_dsm.png"><img src="/assets/images/peyman_score_matching_dsm.png"></a>
@@ -34,10 +32,11 @@ The extend the DSM equivalence proof (Vincent 2011) to the case of such corrupti
  The do a network reparametrization making use of the given linear corruption matrix. 
  Instead of moving the network prediction $$s_{\theta}(x|t)$$ closer to $$(C_t* x_0 - x_t)/\sigma^2_t$$, 
  they instead predict $$h_{\theta}$$, which is related to $$s_{\theta}$$ as shown below.
- <figure>
+ ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/peyman_score_matching_reparametrization.png){: .align-center}
+ <!-- <figure>
     <a href="/assets/images/peyman_score_matching_reparametrization.png"><img src="/assets/images/peyman_score_matching_reparametrization.png"></a>
     <!-- <figcaption> Degradation family considered in this paper (Credits: https://arxiv.org/abs/2209.05442).</figcaption> -->
-</figure>
+<!-- </figure> -->
 
 Hence, now, $$C_t*h_{\theta}(x|t)$$ 
 now is trained to be close to $$C_t * x_0$$. While it is clear that it is a reparametrization and that the knowledge about the degradation is used, it is not clear what is the advantage of this reparametrization. An ablation study on this would have been helpful.
