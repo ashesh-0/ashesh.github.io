@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /SM/DDPM/
+permalink: /diffusion/DDPM/
 author_profile: true
 title: "Denoising Diffusion Probabilistic Models"
 classes: wide

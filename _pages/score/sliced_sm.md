@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /SM/SSM/
+permalink: /diffusion/SSM/
 author_profile: true
 title: "Sliced Score Matching: A Scalable Approach to Density and Score Estimation"
 ---

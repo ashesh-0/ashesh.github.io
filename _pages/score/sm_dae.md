@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /SM/sm_dae/
+permalink: /diffusion/sm_dae/
 author_profile: true
 title: "A Connection Between Score Matching and Denoising Autoencoders"
 ---
