@@ -19,3 +19,4 @@ header:
 ## Recent Additions
 * Soft Diffusion Score Matching for General Corruptions. [Link](/diffusion/score-matching/)
 * Multiscale Structure Guided Diffusion for Image Deblurring. [Link](/diffusion/multiscale-deblurring/)
+* Inversion by Direct Iteration: An Alternative to Denoising Diffusion for Image Restoration. [Link](/diffusion/indi/)
