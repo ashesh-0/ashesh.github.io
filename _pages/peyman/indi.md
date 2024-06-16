@@ -19,9 +19,12 @@ header:
 The authors work with a dataset of clean and degraded image pairs, $$(x,y)$$. For training, they create an intermediate image, $$x_t$$ by taking a linear combination of the clean and degraded image. They train a network, $$F_{\theta}$$ to predict clean image $$x$$ where the inputs are the intermediate image $$x_t$$ and the mixing coefficient, denoted here by $$t$$. The training objective is shown below: 
  ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/indi_objective.png){: .align-center}
 
+ 
 ## Inference
-At inference time, $$F_{\theta}(x_t,t)$$ gives an estimate of the clean image. The idea is to get a better estimate of $$x$$, denoted here by $$\hat{x}_{t - \delta}$$, by taking a weighted average of current prediction and existing estimate as shown below. Additionally, for faster convergence, they add a small amount of gaussian noise  to $$\hat{x}_{t-\delta}$$ (not shown in the equation below).  
+At inference time, $$F_{\theta}(x_t,t)$$ gives an estimate of the clean image. The idea is to get a better estimate of $$x$$, denoted here by $$\hat{x}_{t - \delta}$$, by taking a weighted average of current prediction and existing estimate as shown below.   
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/indi_inference.png){: .align-center}
+
+Additionally, they add a small amount of gaussian noise  to $$\hat{x}_{t-\delta}$$ both while training and inference (not shown in the equations above). This, they argue, ensures $$p_{x_t}(\hat{x_t}) > 0$$ everywhere. 
 
 ## Demonstrating InDI effectiveness to "regression to the mean" effect
 They create two synthetic small datasets, one of which is shown below. Data comes from a multi-modal dirac delta distribution with 4 points (orange dots). The degradation is gaussian noise and so the degraded observations are all over the place (blue dots). The left panel below shows the clean and degraded data. In the right panel we have InDI's prediction (black empty circles) and a single step MMSE estimate (red filled circles). While InDi is able to recover the original points (black circle perfectly encircles organge dots), the single step restoration leads to predictions which are essentially weighted averages of the four points (red dots).       
