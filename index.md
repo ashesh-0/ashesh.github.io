@@ -5,7 +5,6 @@ title: About Me
 # layout: single
 classes: wide
 ---
-# About Me
 Currently, I'm working as a 3rd year PhD student in [Florian Jug](https://humantechnopole.it/en/people/florian-jug/)'s lab. 
 My PhD project is an image decomposition task of splitting a superimposed image into its constituent channels. 
 
