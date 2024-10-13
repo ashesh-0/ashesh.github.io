@@ -17,7 +17,7 @@ Given a superimposed (noisy) image, the task is to decompose it into its constit
 <img src="assets/images/usplit_teaser.png" alt="drawing" class="center" width="800px" height="auto"
 title="Splitting: An image decomposition task"/>
 
-We published [uSplit](https://ashesh-0.github.io/uSplit/), a HVAE inspired architecture which used surrounding context in a GPU-efficient way, at ICCV 23. Subsequently, we built on top of it to create [denoiSplit](https://arxiv.org/abs/2403.11854), a network which could do unsupervised denoising together with decomposition.
+We published [uSplit](https://ashesh-0.github.io/uSplit/), a HVAE inspired architecture which used surrounding context in a GPU-efficient way, at ICCV 23. Subsequently, we built on top of it to create [denoiSplit](https://ashesh-0.github.io/denoiSplit/), a network which could do unsupervised denoising together with decomposition.
 This enabled (a) getting multiple predictions (a.k.a opinions of the network) for a single input and (b) model calibration: having a pixelwise estimate of error in the prediction. 
 We recently published it at ECCV 24.
 For a meaningful evaluation of our work, and in general for unsupervised denoising tasks on microscopy data, we developed [microSSIM](https://ashesh-0.github.io/MicroSSIM/), a variant of SSIM more suited for microscopy data which was published at BIC workshop, ECCV 24. 
