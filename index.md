@@ -24,7 +24,7 @@ For a meaningful evaluation of our work, and in general for unsupervised denoisi
 At the beginning of my PhD, I also worked on [structural noise removal](/structural_noise_removal/) using contrastive learning on the latent space.
 
 
-## Coding during PhD
+## Code Contributions
 On the coding side, I've been interested in contributing to microscopy data related code: (a) [c-mda-engine](https://github.com/pymmcore-plus/c-mda-engine), a proof-of-concept C++ based engine for controlling microscopes. Idea was to move re-usable code from different downstream applications to a common codebase and use [SWIG](https://www.swig.org/Doc1.3/Python.html) to generate python bindings. (b) I recently (May 2024) started contributing to [microsim](https://github.com/ashesh-0/microsim), a light microscopy simulator. (c) I created a python package [predtiler](https://pypi.org/project/predtiler/), a light-weight package which enables tiled prediction in any dataset class used with pytorch with minimal changes in the dataset class code.
 
 # RA in Vision-lab, NTU, Taiwan.
